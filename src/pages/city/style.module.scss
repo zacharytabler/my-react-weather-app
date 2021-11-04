@@ -1,0 +1,27 @@
+@import "src/style/mixins";
+
+.cityInfo__container {
+  display: flex;
+  flex-direction: column;
+
+  & h2 {
+    color: #00bcd4;
+    font-size: 32px;
+  }
+
+  & h3 {
+    color: #00bcd4;
+    font-size: 24px;
+  }
+
+  & img {
+    border-radius: 10px;
+    box-shadow: 1px 2px 14px 3px rgba(118, 110, 110, 0.75);
+    height: 125px;
+    width: 125px;
+  }
+
+  & button {
+    @include actionButton;
+  }
+}

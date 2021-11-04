@@ -1,0 +1,17 @@
+.home__container {
+  text-align: center;
+
+  & span {
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  & img {
+    align-items: center;
+  }
+}
+
+.span__container {
+  display: block;
+  padding-bottom: 15px;
+}
